@@ -1,0 +1,18 @@
+language: python
+python:
+  - "3.6"
+
+install:
+  - pip install numpy scipy matplotlib notebook nbconvert pytest
+
+script:
+  - py.test -v .
+
+  # The stuff below was intended to automatically create an HTML version
+  # of the notebook and push it to GitHub but it is failing. See:
+  # https://travis-ci.com/msum-phys350-spring-2019/lab08/builds/104236395#L597
+  # - jupyter nbconvert --to html lab08_writeup.ipynb
+  # - git checkout master
+  # - git add lab08_writeup.html
+  # - git commit -m "Add rendered notebook"
+  # - git push origin
