@@ -1,4 +1,4 @@
-# lab13: THERE IS NO PDF LAB WRITE-UP
+# lab13: THERE IS NO PDF LAB WRITE-UP...Look at the notebook for instructions
 
 You will use this space to get some sample code you need to start Lab 13 and to upload your Lab 13 code.
 
